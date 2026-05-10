@@ -2,22 +2,7 @@
 
 A fully-featured, colourful Sudoku game that runs right in your terminal — no browser, no dependencies, just Python.
 
-```
-  ╔══════════════════════╗
-  ║   SUDOKU  CLI  🎯    ║
-  ╚══════════════════════╝
-
-      1   2   3   4   5   6   7   8   9
-  ╔═══════════╦═══════════╦═══════════╗
-1 ║ 3 │ 1 │ 9 ║   │ 6 │   ║ 7 │   │   ║
-  ╟───┼───┼───╫───┼───┼───╫───┼───┼───╢
-2 ║   │ 6 │   ║ 9 │   │ 8 ║ 5 │   │   ║
-  ╟───┼───┼───╫───┼───┼───╫───┼───┼───╢
-3 ║ 4 │ 5 │   ║   │   │   ║   │ 9 │ 6 ║
-  ╠═══════════╬═══════════╬═══════════╣
-4 ║   │   │ 1 ║ 6 │   │ 3 ║ 2 │ 4 │   ║
-  ...
-```
+![Screenshot](image.png)
 
 ---
 
@@ -46,11 +31,11 @@ A fully-featured, colourful Sudoku game that runs right in your terminal — no 
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/sudoku-cli.git
-cd sudoku-cli
+git clone https://github.com/Mayukh-Jain/Sudoku-CLI.git
+cd Sudoku-CLI
 
 # Play!
-python3 sudoku.py
+python3 main.py
 ```
 
 No `pip install` needed — the game uses only Python's standard library.
@@ -84,7 +69,7 @@ No `pip install` needed — the game uses only Python's standard library.
 
 ```
 sudoku-cli/
-├── sudoku.py     # The entire game — single file, no dependencies
+├── main.py     # The entire game — single file, no dependencies
 └── README.md
 ```
 
@@ -105,12 +90,6 @@ sudoku-cli/
 - [ ] Undo / redo support
 - [ ] Load puzzle from file or string
 - [ ] Colour theme selection
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
